@@ -71,31 +71,11 @@
 
 ### Kexts 清单
 
-```
-EFI/OC/Kexts/
-├── Lilu.kext                   ✅ 内核补丁框架
-├── VirtualSMC.kext             ✅ SMC 模拟
-├── WhateverGreen.kext          ✅ GPU 补丁
-├── AppleALC.kext               ✅ 声卡驱动
-├── RealtekRTL8111.kext         ✅ 有线网卡驱动
-├── USBPorts.kext               ✅ USB 定制映射
-├── SMCProcessor.kext           ✅ CPU 传感器
-├── SMCSuperIO.kext             ✅ 风扇/温度
-├── RestrictEvents.kext         ✅ 事件限制
-└── FeatureUnlock.kext          ✅  Sidecar/AirPlay 解锁
-```
+> 完整 EFI 文件请从 [Releases](https://github.com/Sanqing678/Colorful-B860M-Arrow-Lake-Hackintosh/releases) 下载 v1.0.0 压缩包。
 
 ### SSDT 热补丁
 
-```
-EFI/OC/ACPI/
-├── SSDT-PLUG.aml       ✅ CPU 电源管理
-├── SSDT-EC.aml         ✅ EC 仿冒
-├── SSDT-USBX.aml       ✅ USB 电源属性
-├── SSDT-SBUS.aml       ✅ SMBus 支持
-├── SSDT-MCHC.aml       ✅ MCHC 仿冒
-└── SSDT-RTC0.aml       ✅ RTC 兼容性
-```
+> 完整 EFI 文件请从 [Releases](https://github.com/Sanqing678/Colorful-B860M-Arrow-Lake-Hackintosh/releases) 下载 v1.0.0 压缩包。
 
 ---
 
